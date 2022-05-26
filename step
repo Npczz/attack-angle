@@ -1,0 +1,44 @@
+if(ang >= 22.5 && ang <= 67.5){
+	// Right Up
+	image_angle = 45;
+	x = obj_player.x + ??;
+	y = obj_player.y - ??;
+	
+}else if(ang > 67.5 && ang <= 112.5){
+	//Up
+	image_angle = 90;
+	y = obj_player.y - ??;
+	
+}else if(ang > 112.5 && ang <= 157.5){
+	// Left Up
+	image_angle = 135;
+	x = obj_player.x - ??;
+	y = obj_player.y - ??;
+	
+}else if(ang > 157.5 && ang <= 202.5){
+	// Left
+	image_angle = 180;
+	x = obj_player.x - ??;
+	
+}else if(ang > 202.5 && ang <= 247.5){
+	// Left Down
+	image_angle = 225;
+	x = obj_player.x - ??;
+	y = obj_player.y + ??;
+	
+}else if(ang > 247.5 && ang <= 292.5){
+	// Down
+	image_angle = 270;
+	y = obj_player.y + ??;
+	
+}else if(ang > 292.5 && ang <= 337.5){
+	// Down Right
+	image_angle = 315;
+	x = obj_player.x + ??;
+	y = obj_player.y + ??;
+	
+}else if(ang > 337.5 && ang <= 360 || ang >= 0 && ang < 22.5){
+	// Right	
+	image_angle = 0;
+	x = obj_player.x + ??;
+}
